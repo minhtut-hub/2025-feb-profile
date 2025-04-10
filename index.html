@@ -1,108 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <div class="container">
-            <a href="#" class="logo">Stimulus</a>
-            <button id="toggle">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <ul class="menu">
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#experiences">experiences</a></li>
-                <li><a href="#testimonial">testimonial</a></li>
-                <li><a href="contact">contact</a></li>
-            </ul>
-        </div>
+      <div class="container">
+        <a href="#" class="logo">Stimulus</a>
+        <button id="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="menu">
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#experiences">experiences</a></li>
+          <li><a href="#testimonial">testimonial</a></li>
+          <li><a href="contact">contact</a></li>
+        </ul>
+      </div>
     </nav>
     <section id="home">
-        <div class="home-img">
-            <img src="photo/home.jpg" alt="">
-        </div>
-        <div class="home-content">
-            <p>welcome to my website</p>
-            <h1>Hello, I am <Strong>Stimulus</Strong> currently based in New York</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores beatae sed impedit architecto ratione
-                ad in corrupti, neque, dicta veniam illo assumenda quae minima dolore molestiae vero qui. Repudiandae,
-                reprehenderit?</p>
-            <a href="#">get started</a>
-        </div>
+      <div class="home-img">
+        <img src="photo/home.jpg" alt="" />
+      </div>
+      <div class="home-content">
+        <p>welcome to my website</p>
+        <h1>
+          Hello, I am <strong>Stimulus</strong> currently based in New York
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores
+          beatae sed impedit architecto ratione ad in corrupti, neque, dicta
+          veniam illo assumenda quae minima dolore molestiae vero qui.
+          Repudiandae, reprehenderit?
+        </p>
+        <a href="#">get started</a>
+      </div>
     </section>
     <section id="about">
-        <div class="about-content">
-            <h1>Lorem ipsum dolor sit amet cons</h1>
-            <small>Lorem, ipsum dolor sit amet </small>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+      <div class="about-content">
+        <h1>Lorem ipsum dolor sit amet cons</h1>
+        <small>Lorem, ipsum dolor sit amet </small>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing</p>
+      </div>
+      <div class="about-box">
+        <img src="photo/photo-2.jpg" alt="" />
+      </div>
+      <div class="about-box bg-yellow">
+        <h1>My Skills</h1>
 
+        <p>Photoshop . HTML CSS WEB Design .JS</p>
+        <div>
+          <h3>Frontend Design</h3>
+          <p>90%</p>
+          <progress value="90" max="100"></progress>
         </div>
-        <div class="about-box">
-            <img src="photo/photo-2.jpg" alt="">
+        <div>
+          <h3>Backend Proccessing</h3>
+          <p>70%</p>
+          <progress value="70" max="100"></progress>
         </div>
-        <div class="about-box bg-yellow">
-            <h1>My Skills</h1>
-
-            <p>Photoshop . HTML CSS WEB Design .JS</p>
-            <div>
-                <h3>Frontend Design</h3>
-                <p>90%</p>
-                <progress value="90" max="100"></progress>
-            </div>
-            <div>
-                <h3>Backend Proccessing</h3>
-                <p>70%</p>
-                <progress value="70" max="100"></progress>
-            </div>
-            <div>
-                <h3>HTML & CSS</h3>
-                <p>80%</p>
-                <progress value="80" max="100"></progress>
-            </div>
+        <div>
+          <h3>HTML & CSS</h3>
+          <p>80%</p>
+          <progress value="80" max="100"></progress>
         </div>
-        <div class="about-box bg-yellow">
-            <i class="fa-solid fa-display"></i>
-            <h2>Interface Design</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, recusandae voluptas error illum iusto
-                molestias fugiat earum, voluptatibus excepturi incidunt consequatur debitis inventore eos deleniti.
-                Architecto autem similique aspernatur consequatur.</p>
-        </div>
-        <div class="about-box bg-orange">
-            <i class="fa-solid fa-display"></i>
-            <h2>Media Strategy</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, recusandae voluptas error illum iusto
-                molestias fugiat earum, voluptatibus excepturi incidunt consequatur debitis inventore eos deleniti.
-                Architecto autem similique aspernatur consequatur.</p>
-        </div>
-        <div class="about-box bg-black">
-            <i class="fa-solid fa-envelope"></i>
-            <h2>Mobile app</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, recusandae voluptas error illum iusto
-                molestias fugiat earum, voluptatibus excepturi incidunt consequatur debitis inventore eos deleniti.
-                Architecto autem similique aspernatur consequatur.</p>
-        </div>
-        <div class="about-box bg-white">
-            <i class="fa-brands fa-html5"></i>
-            <h2>Coding</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, recusandae voluptas error illum iusto
-                molestias fugiat earum, voluptatibus excepturi incidunt consequatur debitis inventore eos deleniti.
-                Architecto autem similique aspernatur consequatur.</p>
-        </div>
-
+      </div>
+      <div class="about-box bg-yellow">
+        <i class="fa-solid fa-display"></i>
+        <h2>Interface Design</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+          recusandae voluptas error illum iusto molestias fugiat earum,
+          voluptatibus excepturi incidunt consequatur debitis inventore eos
+          deleniti. Architecto autem similique aspernatur consequatur.
+        </p>
+      </div>
+      <div class="about-box bg-orange">
+        <i class="fa-solid fa-display"></i>
+        <h2>Media Strategy</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+          recusandae voluptas error illum iusto molestias fugiat earum,
+          voluptatibus excepturi incidunt consequatur debitis inventore eos
+          deleniti. Architecto autem similique aspernatur consequatur.
+        </p>
+      </div>
+      <div class="about-box bg-black">
+        <i class="fa-solid fa-envelope"></i>
+        <h2>Mobile app</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+          recusandae voluptas error illum iusto molestias fugiat earum,
+          voluptatibus excepturi incidunt consequatur debitis inventore eos
+          deleniti. Architecto autem similique aspernatur consequatur.
+        </p>
+      </div>
+      <div class="about-box bg-white">
+        <i class="fa-brands fa-html5"></i>
+        <h2>Coding</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat,
+          recusandae voluptas error illum iusto molestias fugiat earum,
+          voluptatibus excepturi incidunt consequatur debitis inventore eos
+          deleniti. Architecto autem similique aspernatur consequatur.
+        </p>
+      </div>
     </section>
     <script src="js/main.js"></script>
-    <p>Lorem ipsum dolor sit amet consectetur.</p>
-</body>
+    <section id="experience">
+      <div class="experience-img">
+        <img src="photo/experience.jpg" alt="" />
+      </div>
+      <div class="experience-content bg-orange">
+        <h1>My Experiences</h1>
+        <small>Previous companies and my tasks</small>
+        <div class="box">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <div class="box-content">
+            <h2>
+              graphic desinger
+              <p>2014 Jul -2015 Sep</p>
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <div class="box-content">
+            <h2>
+              graphic desinger
+              <p>2014 Jul -2015 Sep</p>
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+        </section>
+    <script src="js/main.js"></script>
+    <section id="experience">
+      <div class="experience-img">
+        <img src="photo/experience.jpg" alt="" />
+      </div>
+      <div class="experience-content bg-orange">
+        <h1>My Experiences</h1>
+        <small>Previous companies and my tasks</small>
+        <div class="box">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <div class="box-content">
+            <h2>
+              graphic desinger
+              <p>2014 Jul -2015 Sep</p>
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <div class="box-content">
+            <h2>
+              graphic desinger
+              <p>2014 Jul -2015 Sep</p>
+            </h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="education">
+        <div class="education-img">
+          <img src="photo/education.jpg" alt="" />
+        </div>
+        <div class="education-content bg-orange">
+          <h1>My education</h1>
+          <small>Lorem ipsum dolor sit.</small>
+          <div class="box">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="box-content">
+              <h2>
+                Lorem ipsum dolor sit.
+                <p>2014 Jul -2015 Sep</p>
+              </h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-laptop-code"></i>
+            <div class="box-content">
+              <h2>
+                Lorem ipsum dolor sit.
+                <p>2014 Jul -2015 Sep</p>
+              </h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonial">
+        <i class="fa-solid fa-star"></i>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+      </section>
+  </body>
 </html>
